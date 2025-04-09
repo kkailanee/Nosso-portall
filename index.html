@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      overflow-x: hidden;
+    }
+    .intro {
+      height: 100vh;
+      background: url('https://i.imgur.com/SsVzkqW.gif') center center no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .intro h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+    .intro p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .section img {
+      max-width: 90vw;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+    .frase {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #ffcc00;
+    }
+    .audio-player {
+      display: none;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <div class="intro">
+    <h1>Nosso Portal</h1>
+    <p>Porque seu olhar ainda é meu lugar seguro quando a gente se perde</p>
+  </div>  <audio class="audio-player" autoplay loop>
+    <source src="camisa_preta.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>  <div class="section">
+    <img src="https://i.imgur.com/9bdIMwG.png" alt="Quadrinho 1">
+    <p class="frase">Você é tipo aquele episódio perdido do multiverso: ninguém entende, mas eu assistiria pra sempre.</p>
+  </div>  <div class="section">
+    <img src="https://i.imgur.com/4Z0Jl6T.png" alt="Quadrinho 2">
+    <p class="frase">Fugir da realidade com você? Sempre. Só me passa o beck e segura minha mão.</p>
+  </div>  <div class="section">
+    <img src="https://i.imgur.com/qxELdNC.png" alt="Quadrinho 3">
+    <p class="frase">Nosso amor é tipo um portal interdimensional: caótico, imprevisível e exatamente onde eu quero estar.</p>
+  </div>  <div class="section">
+    <img src="https://i.imgur.com/3ED1l9G.png" alt="Rick e Morty narrando">
+    <p class="frase">Rick: "Eles se conheceram no Instagram. Ele mandou mensagem e cancelou três vezes. Patético."<br>
+    Morty: "Mas olha só, Rick... eles se apaixonaram rapidinho!"</p>
+  </div>  <div class="section">
+    <p style="font-size: 1.5rem; color: #ccc;">Mais que um casal... um multiverso próprio.</p>
+  </div>
+</body>
+</html>
